@@ -1,19 +1,22 @@
-# <img src="./PIC/logo.png" height="30" /> CCModelingKernel
+# <img src="./PIC/logo.png" height="30" /> 炽橙 CZY3D 几何内核
 
 ## 简介
 
-这是一个开源的 **内核算法库**，使用 **C++** 实现，旨在为开发者提供高效的算法实现，解决常见的计算和优化问题。项目支持包括CAM加工路径计算等，所有实现都经过数据打磨，在行业内使用具备较好的稳定性。
+这是一个开源的 **内核算法库**，使用 **C++** 实现，旨在为开发者提供高效的算法实现，解决常见的计算和优化问题。该库包含了多种核心算法，具体包括：
 
-通过优化的内核算法，可以广泛应用于制造业等领域，特别是在 **CAM（计算机辅助制造）** 系统中的刀具路径计算、3D建模与分析等方面，提供强有力的算法支持。
+**CAD（计算机辅助设计）**：曲线与曲面平滑、拓扑合并与分割等算法，用于提升几何建模的精度和效率。
+
+**CAE（计算机辅助工程）**：网格自适应细分、形状优化等算法，用于在工程分析中生成高质量的网格并进行结构优化。
+
+**CAM（计算机辅助制造）**：加工路径识别、测地线计算等算法，广泛应用于刀具路径计算和3D建模与分析。
 
 ### 克隆本项目
 
 ```bash
-git clone https://github.com/ChiChengTech/CCModelingKernel.git
-cd CCModelingKernel
+git clone https://github.com/CZY3DKernel/CZY3DKernel.git
+cd CZY3DKernel
 ```
 ### 目录说明
-
 - `COMMON/`
 公共模块目录（通用类型、宏、基础工具、公共数据结构等）。
 
@@ -29,8 +32,14 @@ cd CCModelingKernel
 - `PIC/`
 文档展示图片目录（README/说明文档中引用的效果图、对比图、案例截图）。
 
+- `CAD/`
+提供 CAD 几何、拓扑处理相关的核心算法模块，详见CAD内部的ReadMe示例。
+
+- `CAE/`
+包含与 CAE 剖分、优化相关的核心算法模块，详见CAE内部的ReadMe示例。
+
 - `CAM/`
-包含与 CAM 加工相关的核心算法模块，详见CAM内部的ReadMe示例。
+包含与 CAM 加工路径相关的核心算法模块，详见CAM内部的ReadMe示例。
 
 ## 开源算法列表
 
@@ -65,7 +74,7 @@ cd CCModelingKernel
 ### 贡献步骤
 
 1. Fork 本仓库
-2. 克隆到本地：`git clone https://github.com/ChiChengTech/CCModelingKernel.git`
+2. 克隆到本地：`git clone https://github.com/CZY3DKernel/CZY3DKernel.git`
 3. 创建一个新的分支：`git checkout -b feature/your-feature-name`
 4. 提交你的改动：`git commit -am 'Add new feature or fix bug'`
 5. Push 到你的分支：`git push origin feature/your-feature-name`

@@ -1,9 +1,16 @@
 # 加工路径识别
 
-本目录提供一段 **加工路径识别（切割轨迹识别）** 的调用示例代码。
+CAM 软件刀具路径识别规划算法
+
+## 效果预览
+<p align="center">
+  <img src="../../PIC/162.png" width=250 style="margin-right: 50px;"   />
+  <img src="../../PIC/012.png" width=275 />
+  
+</p>
 
 ## 算法流程说明
-<img src="../../PIC/cutting_rails.png" width="360"  />
+<img src="../../PIC/cutting_rails.png" height="360"  />
 
 ## 调用示例代码
 ```cpp
@@ -70,15 +77,6 @@ int main() {
     return 0;
 }
 ```
-
-## 效果预览
-
-### 识别结果示例
-<p align="center">
-  <img src="../../PIC/012.png" height="260"  />
-  <img src="../../PIC/158.png" height="260"  />
-  <img src="../../PIC/162.png" height="260"  />
-</p>
 
 ## 依赖环境
 
