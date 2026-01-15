@@ -1,4 +1,4 @@
-# <img src="./PIC/logo.png" height="25" /> CCModelingKernel
+# <img src="./PIC/logo.png" height="30" /> CCModelingKernel
 
 ## 简介
 
@@ -6,19 +6,11 @@
 
 通过优化的内核算法，可以广泛应用于制造业等领域，特别是在 **CAM（计算机辅助制造）** 系统中的刀具路径计算、3D建模与分析等方面，提供强有力的算法支持。
 
-## 特性
-
-- **高效的C++实现**：针对内核算法进行性能优化，适用于大规模数据集。
-- **经典算法集合**：包括排序、图算法、动态规划等常用算法，涵盖广泛领域的基础算法。
-- **支持并行计算**：提供并行化优化，适合多核处理，极大提升计算效率。
-- **跨平台支持**：兼容主流操作系统（Linux, macOS, Windows），无缝运行于不同环境。
-- **适用场景广泛**：支持 **CAM** 系统中的刀具路径计算、曲线简化与优化、3D模型分析、图像处理等应用。
-
 ### 克隆本项目
 
 ```bash
 git clone https://github.com/ChiChengTech/CCModelingKernel.git
-cd kernel-algorithms
+cd CCModelingKernel
 ```
 ### 目录说明
 
